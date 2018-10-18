@@ -10,6 +10,12 @@ Bash scripts for sending key presses to open applications in X Windows (GNOME, K
 4. ```make```
 5. Move the compiled xsendkey binary somewhere on your ```$PATH```
 
+## Fix Problems with make
+fatal error: X11/Xlib.h: Not Found =>
+  sudo apt-get install build-essential
+fatal error: stdio.h: Not Found
+  sudo apt-get install build-essential
+  
 ## Usage Examples
 
 Note that the target application (e.g. Google Chrome) needs to already be open for these to work.
